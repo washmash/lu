@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-int i,s;
+int IPhone,Sum;
 int main(int argc, char *argv[]) {
-	for(i=0;i<20;i++){
-		s=s+i;
+	for(IPhone=0;IPhone<20;IPhone++){
+		Sum=Sum+IPhone;
 	}
-	printf("s=%d",s);
+	printf("Sum=%d",Sum);
 		return 0;
 }
